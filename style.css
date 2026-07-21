@@ -76,6 +76,15 @@ a:focus-visible { outline: 2px solid var(--registry); outline-offset: 2px; }
 .contents .n { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); }
 .contents .status { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
 .contents .scheduled span:nth-child(2) { color: var(--muted); }
+.contents .part h3 { font-size: 0.95rem; font-weight: 600; margin: 1.8rem 0 0.35rem; }
+.contents .part h3 .partlabel {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--muted);
+  margin-right: 0.4rem;
+}
+.contents .door { color: var(--muted); font-size: 0.92rem; line-height: 1.55; margin: 0 0 0.7rem; }
 
 @media (max-width: 34rem) {
   .contents li { grid-template-columns: 2rem 1fr; }
