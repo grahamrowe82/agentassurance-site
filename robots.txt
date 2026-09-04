@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://agentassurance.phasetransitions.ai/sitemap.xml
+Disallow: /
